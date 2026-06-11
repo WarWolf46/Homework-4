@@ -51,7 +51,7 @@ public class Main {
 
         // Задача 5
         System.out.println("\nЗадача №5");
-        int childAge = 12;
+        int childAge = 11;
 
         if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему нельзя кататься на аттракционе");

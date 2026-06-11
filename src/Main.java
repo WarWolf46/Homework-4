@@ -36,7 +36,7 @@ public class Main {
 
         // Задача 4
         System.out.println("\nЗадача №4");
-        int age4 = 10;
+        int age4 = 11;
 
         if (age4 >= 2 && age4 <= 6) {
             System.out.println("Если возраст человека равен " + age4 + ", то ему нужно ходить в детский сад");

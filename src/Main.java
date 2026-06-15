@@ -23,9 +23,10 @@ public class Main {
         }
 
 
+
         // Задача 3
         System.out.println("\nЗадача №3");
-        int speed = 65;
+        int speed = 61;
 
         if (speed > 60) {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");

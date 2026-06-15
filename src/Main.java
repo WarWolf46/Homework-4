@@ -3,12 +3,12 @@ public class Main {
 
         // Задача 1
         System.out.println("Задача №1");
-        int age1 = 18;
+        int age = 18;
 
-        if (age1 >= 18) {
-            System.out.println("Если возраст человека равен " + age1 + ", то он совершеннолетний");
+        if (age >= 18) {
+            System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
         } else {
-            System.out.println("Если возраст человека равен " + age1 + ", то он не достиг совершеннолетия, нужно немного подождать");
+            System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать");
         }
 
 
@@ -17,15 +17,16 @@ public class Main {
         int temperature = 3;
 
         if (temperature < 5) {
-            System.out.println("На улице " + temperature + " градуса, нужно надеть шапку");
+            System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
         } else {
             System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
         }
 
 
+
         // Задача 3
         System.out.println("\nЗадача №3");
-        int speed = 65;
+        int speed = 54;
 
         if (speed > 60) {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
@@ -36,22 +37,22 @@ public class Main {
 
         // Задача 4
         System.out.println("\nЗадача №4");
-        int age4 = 11;
+        int personAge = 10;
 
-        if (age4 >= 2 && age4 <= 6) {
-            System.out.println("Если возраст человека равен " + age4 + ", то ему нужно ходить в детский сад");
-        } else if (age4 >= 7 && age4 <= 17) {
-            System.out.println("Если возраст человека равен " + age4 + ", то ему нужно ходить в школу");
-        } else if (age4 >= 18 && age4 <= 24) {
-            System.out.println("Если возраст человека равен " + age4 + ", то ему нужно ходить в университет");
-        } else if (age4 > 24) {
-            System.out.println("Если возраст человека равен " + age4 + ", то ему нужно ходить на работу");
+        if (personAge >= 2 && personAge <= 6) {
+            System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить в детский сад");
+        } else if (personAge >= 7 && personAge <= 17) {
+            System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить в школу");
+        } else if (personAge >= 18 && personAge <= 24) {
+            System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить в университет");
+        } else if (personAge > 24) {
+            System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить на работу");
         }
 
 
         // Задача 5
         System.out.println("\nЗадача №5");
-        int childAge = 11;
+        int childAge = 12;
 
         if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему нельзя кататься на аттракционе");
@@ -64,17 +65,18 @@ public class Main {
 
         // Задача 6
         System.out.println("\nЗадача №6");
-        int currentPassengers = 80;
-        int sittingCapacity = 60;
+        int peopleCount = 80;
+        int sittingPlaces = 60;
         int totalCapacity = 102;
 
-        if (currentPassengers < sittingCapacity) {
+        if (peopleCount < sittingPlaces) {
             System.out.println("В вагоне есть сидячие места");
-        } else if (currentPassengers >= sittingCapacity && currentPassengers < totalCapacity) {
+        } else if (peopleCount >= sittingPlaces && peopleCount < totalCapacity) {
             System.out.println("В вагоне есть стоячие места");
         } else {
             System.out.println("Вагон уже полностью забит");
         }
+
 
         // Задача 7
         System.out.println("\nЗадача №7");
